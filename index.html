@@ -30,14 +30,15 @@
                     </button>
 
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-transparent shadow-md rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none  lg:dark:bg-transparent dark:shadow-slate-500">
+                        class="hidden absolute py-5 bg-white backdrop-filter backdrop-blur-md shadow-md rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none 
+                bg-opacity-40 dark:shadow-slate-500">
                         <ul class="block lg:flex lg:items-center  lg:max-w-full">
                             <li class="group">
-                                <a href="#home"
+                                <a href="#home" 
                                     class="text-base text-dark py-2 mx-8 flex  group-hover:text-primary dark:text-white">Beranda</a>
                             </li>
                             <li class="group">
-                                <a href="#about"
+                                <a href="./about.html" target="_blank"
                                     class="text-base text-dark py-2 lg:max-w-full mx-8 flex w-full group-hover:text-primary dark:text-white">About
                                     Me</a>
                             </li>
@@ -59,7 +60,7 @@
                             </li>
                             <li class="flex items-center pl-8">
                                 <div class="flex">
-                                    <span class="mr-2 text-slate-500">Light</span>
+                                    <span class="mr-2 text-slate-300">Light</span>
                                     <input type="checkbox" class="hidden" id="dark-toggle">
                                     <label for="dark-toggle">
                                         <div
@@ -69,7 +70,7 @@
                                             </div>
                                         </div>
                                     </label>
-                                    <span class="ml-2 text-slate-500">Dark</span>
+                                    <span class="ml-2 text-slate-700">Dark</span>
                                 </div>
                             </li>
                         </ul>

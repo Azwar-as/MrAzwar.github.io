@@ -37,10 +37,17 @@ const html = document.querySelector('html')
 
 darkToggle.addEventListener('click', () => {
     if (darkToggle.checked) {
+<<<<<<< HEAD
       html.classList.add("dark")
         localStorage.theme = "dark"
     } else {
          html.classList.remove("dark")
+=======
+        html.classList.add("dark")
+        localStorage.theme = "dark"
+    } else {
+        html.classList.remove("dark")
+>>>>>>> 405c042 (first commit)
         localStorage.theme = "light"
     }
 })

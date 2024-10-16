@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="bg-tranparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="bg-tranparent backdrop-blur-lg top-0 left-0 w-full flex items-center z-20 fixed">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
@@ -30,7 +30,8 @@
                     </button>
 
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-black shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500">
+                        class="hidden absolute py-5 bg-black shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500"
+                        data-aos="fade-up">
                         <ul class="block lg:flex lg:items-center  lg:max-w-full">
                             <li class="group">
                                 <a href="#home"
@@ -42,8 +43,8 @@
                                     Me</a>
                             </li>
                             <li class="group">
-                                <a href="#portofolio"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portofolio</a>
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
                             </li>
                             <li class="group">
                                 <a href="#clients"
@@ -55,7 +56,7 @@
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text- dark:text-white">Contact</a>
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
                             </li>
                             <li class="flex items-center pl-8">
                                 <div class="flex">
@@ -86,14 +87,15 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋, Saya <span
-                            class="block font-bold text-dark text-4xl mt-1 dark:text-light">Azwar</span></h1>
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋, Saya
+                        <span class="block font-bold text-dark text-4xl mt-1 dark:text-light">Azwar</span>
+                    </h1>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Saya Seorang, <span
-                            class="text-dark">Mobile Developer</span>
+                            class="text-dark">Web Developer</span>
                     </h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed ">Menjadi web developer
-                        itu menyenangkan
-                        bukan. <span class="font-bold text-dark dark:text-light">bukan!</span></p>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed ">Seorang web developer pemula yang terus
+                        memperdalam keterampilan dan pengetahuan.<span
+                            class="font-bold text-dark dark:text-light">semangat!</span></p>
                     <a href="#"
                         class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi
                         Saya</a>
@@ -109,7 +111,6 @@
                             </svg>
                         </span>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -122,20 +123,24 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md dark:text-white lg:text-4xl">Ayo, menjadi
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md dark:text-white lg:text-4xl">
+                        Ayo,
+                        menjadi
                         seorang Web
                         Developer!</h2>
                     <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odit iusto repellat ab. Alias,
-                        minima repudiandae?
+                        Sebagai seorang yang antusias di bidang pengembangan web, saya selalu tertarik dengan tantangan
+                        baru dan inovasi teknologi. Melalui pengalaman dan pembelajaran, saya terus berupaya menciptakan
+                        solusi digital yang berdampak. Mari, berkembang bersama di dunia teknologi yang dinamis ini!
                     </p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <h3 class="font-semibold text-dark dark:text-white text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman
                     </h3>
                     <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio perspiciatis ipsum recusandae.
-                        Temporibus, illo? Quis fuga omnis temporibus corporis voluptatem!
+                        saya senang berbagi ilmu, ide, dan berkolaborasi dengan orang lain. Jangan ragu untuk terhubung
+                        dengan saya di media sosial! Bersama kita bisa bertukar wawasan, memperluas jaringan, dan
+                        menciptakan sesuatu yang luar biasa.
                     </p>
                     <div class="flex items-center">
                         <!-- Youtube -->
@@ -213,10 +218,9 @@
                     <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Project
                         Terbaru</h2>
-                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit, amet consectetur
-                        adipisicing
-                        elit. Quaerat
-                        sit commodi vero architecto
+                    <p class="font-medium text-md text-secondary md:text-lg">Proyek ini dikerjakan secara tim, dengan
+                        saya berperan sebagai front-end developer untuk memastikan antarmuka pengguna yang responsif dan
+                        fungsional.
                         veritatis. Saepe non harum natus autem vero!</p>
                 </div>
             </div>
@@ -227,8 +231,11 @@
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Landing Page By Borneo.Dev's
                     </h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Esse asperiores amet mollitia.</p>
+                    <p class="font-medium text-base text-secondary"> Proyek ini merupakan landing page yang dikembangkan
+                        bersama tim. Saya bertanggung jawab di bagian front-end, menggunakan HTML dan CSS untuk
+                        menciptakan tampilan yang responsif. Di sisi back-end, tim menggunakan PHP untuk menghubungkan
+                        form kontak dengan klien secara efisien.
+                    </p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
@@ -236,43 +243,36 @@
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Top Up Minecraft Server By
                         Borneo Dev's</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Esse asperiores amet mollitia.</p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/documentation.web/Web.Minecraft/6.png" alt="Admin Dashboard" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Admin Dashboard By Borneo
-                        Dev's</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Esse asperiores amet mollitia.</p>
+                    <p class="font-medium text-base text-secondary">Proyek ini adalah platform layanan top up untuk
+                        Minecraft server yang dikembangkan secara tim. Saya bertanggung jawab sebagai front-end
+                        developer, menggunakan HTML, CSS, dan Bootstrap untuk antarmuka yang responsif. Back-end
+                        menggunakan PHP dengan Laravel dan layanan transaksi melalui Midtrans, serta fitur login untuk
+                        pengguna terdaftar.</p>
                 </div>
             </div>
     </section>
     <!-- PORTFOLIO SECTION End -->
 
     <!-- Client Section Start -->
-    <section id="Clients" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
+    <section id="clients" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
         <div class="container">
             <div class="w-full px-4">
                 <div class="mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
                     <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Yang Pernah
                         Bekerjasama</h2>
-                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit, amet consectetur
-                        adipisicing
-                        elit. Omnis minima animi sed.</p>
+                    <p class="font-medium text-md text-secondary md:text-lg">Berikut adalah beberapa klien yang telah
+                        mempercayakan proyek mereka kepada kami.</p>
                 </div>
             </div>
             <div class="w-full px-4">
                 <div class="flex flex-wrap items-center justify-center">
-                    <a href=""
+                    <a href="https://shop.slebew-smp.com/" target="_blank"
                         class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                         <img src="dist/img/clients/shopSlebew.svg" alt="">
                     </a>
                     <a href=""
-                        class="max-w-[200px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        class="max-w-[200px] mx-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                         <img src="dist/img/clients/landingpage.svg" class="dark:bg-dark rounded-full" alt="">
                     </a>
                 </div>
@@ -281,8 +281,27 @@
     </section>
     <!-- Client Section End -->
 
+
+    <!-- certificate -->
+    <section class="dark:bg-slate-800 pt-36 pb32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb2">Certificate</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">
+                        Webinar & Course
+                    </h2>
+                    <p class="font-medium text-md text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Eveniet,
+                        vitae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  certificate-->
+
     <!-- Blog Start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-200 dark:bg-dark ">
+    <!-- <section id="blog" class="pt-36 pb-32 bg-slate-200 dark:bg-dark ">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
@@ -290,7 +309,7 @@
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan
                         Terkini</h2>
                     <p class="font-medium text-md text-secondary md:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut debitis similique dolores.
+                        COMING SOON
                     </p>
                 </div>
             </div>
@@ -361,20 +380,23 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Blog End -->
 
     <!--Contact Start -->
-    <section class="pt-36 pb-32 dark:bg-slate-800" id="Contact">
+    <section class="pt-36 pb-32 dark:bg-slate-800" id="contact">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya
                     </h2>
-                    <p class="font-medium text-md text-secondary md:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut debitis similique dolores.
+                    <p class="font-medium text-md text-secondary ">
+                        Silakan hubungi saya untuk pertanyaan, kerjasama, atau informasi lebih lanjut.
                     </p>
+                </div>
+                <div class="flex flex-wrap items-center justify-center">
+
                 </div>
             </div>
             <form action="">
@@ -548,9 +570,7 @@
         <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
     </a>
     <!-- Back to top end -->
-
-    <script src=" dist/js/script.js">
-    </script>
+    <script type="module" src="./dist/js/script.js"></script>
 </body>
 
 </html>

@@ -42,7 +42,6 @@ darkToggle.addEventListener("click", () => {
     html.classList.remove("dark");
   }
 });
-
 //Toggle swap
 // if (
 //   localStorage.theme === "dark" ||
